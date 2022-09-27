@@ -32,7 +32,7 @@ Add this properties in your kafka configuration
 
 ### Example (Producer/Consumer)
 
-- https://github.com/jairsjunior/kafka-playground
+- https://github.com/sonsmartbear/ready-kafka-oauth2-pub-sub
 
 ## Broker X Broker Authentication
 
