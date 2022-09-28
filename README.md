@@ -1,5 +1,7 @@
 # Kafka OAuth
 
+This document give the guideline How to setup Apache Kafka, Zookeeper and Authorization Server with OAuth 2.0
+
 ## Client X Broker Authentication
 
 ### Container Environments
@@ -75,3 +77,8 @@ Add this properties in server.properties
 
 3. Add `-Djava.security.auth.login.config=/opt/kafka/config/kafka_server_jaas.conf` at java args to load the configuration file.
     
+### Document and source code referred to write docs above
+- https://medium.com/egen/how-to-configure-oauth2-authentication-for-apache-kafka-cluster-using-okta-8c60d4a85b43
+- https://github.com/jairsjunior
+- https://github.com/jairsjunior/kafka-oauth
+- https://github.com/jairsjunior/kafka-playground
